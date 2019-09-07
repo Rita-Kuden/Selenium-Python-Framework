@@ -3,6 +3,7 @@ from test.POMDemo.locators.locators import Locators
 
 class Gmail_acc_page():
 
+    # constructor
     def __init__(self, driver):
         self.driver = driver
 

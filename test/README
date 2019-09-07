@@ -1,6 +1,7 @@
-
+POM based framework
 To run in terminal: python -m test.POMDemo.runners.login_4CInsights
                     python -m test.POMDemo.runners.gmail_acc_cr
 
-
 To generate multiple data we may use python Faker library
+
+

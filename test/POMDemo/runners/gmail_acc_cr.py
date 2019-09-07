@@ -3,11 +3,11 @@ import time
 import unittest
 from test.POMDemo.drivers.Test_Data import TestData
 from test.POMDemo.utils.utils import URL_gmail, PASSWORD_GMAIL, USERNAME_GMAIL, FIRST_NAME, LAST_NAME, PHONE_NUMBER
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
 from test.POMDemo.page.gmail_acc_page import Gmail_acc_page
 import HtmlTestRunner
+# import sys
+# import os
+# sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
 
 class gmail_Acc(unittest.TestCase):
 
