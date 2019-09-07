@@ -18,10 +18,12 @@ class Gmail_acc_page():
         self.verify_phone_num_text_xpath = Locators.verify_phone_num_text_xpath
         self.error_message_xpath =Locators.err_mess_phone_xpath
 
+    #  First name input bar will be cleared and new first name will be entered
     def enter_first_name(self, gmailUser):
         self.driver.find_element_by_xpath(self.first_name_xpath).clear()
         self.driver.find_element_by_xpath(self.first_name_xpath).send_keys(gmailUser)
 
+    # Last name will be cleared and new Last name will be entered
     def enter_last_name(self, gmailLast):
         self.driver.find_element_by_xpath(self.last_name_xpath).clear()
         self.driver.find_element_by_xpath(self.last_name_xpath).send_keys(gmailLast)
