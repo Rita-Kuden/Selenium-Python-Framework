@@ -1,0 +1,6 @@
+Python- Selenium based Test framework including Selenium WebDriver and POM design pattern
+Python == 2.7.10
+IDE == IntelliJ
+Python library for automation: Selenium ==3.141.0
+installed Jinja2-2.9.5 MarkupSafe-1.1.1 html-Testrunner-1.2
+For Reporting used HTMLTestRunner: installed html-1.16
