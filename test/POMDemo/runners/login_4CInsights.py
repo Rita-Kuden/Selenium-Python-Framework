@@ -37,7 +37,7 @@ class loginTest(unittest.TestCase):
 
         # Saving ScreenShot
         # Screenshot can be viewed in the runners package
-        # Name of the screenshot file has to be renamed
+        # Name of the screenshot file can be renamed
         self.driver.save_screenshot("ScreenShot0.png")
 
         # Printing Error Message Displayed

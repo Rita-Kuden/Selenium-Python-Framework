@@ -16,6 +16,7 @@ class Locators():
     password_gmail_xpath = "//input[@aria-label = 'Password']"
     confirm_password_xpath ="//input[@aria-label = 'Confirm']"
     next_button_xpath ="//span[contains(text(),'Next')]"
-    phone_number_id ="phoneNumberId"
     verify_phone_num_text_xpath="//h1[contains(text(), 'Verify your phone number')]"
     verification_text_xpath ="//div[contains(text(),'Enter')]"
+    phone_number_id ="phoneNumberId"
+    err_mess_phone_xpath ="//div[contains(text(),'This phone number format is not recognized')]"
