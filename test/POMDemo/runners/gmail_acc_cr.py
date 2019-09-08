@@ -65,4 +65,4 @@ if __name__ == '__main__':
     # Setting up our HTML reporting for passed and failed test.
     # This report can be found in the REPORTS package and can be opened in desired browser
     # Using Output path from TestData class for security purposes
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=TestData.REPORT_EXECURE_PATH))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=TestData.REPORT_EXECUTE_PATH))
