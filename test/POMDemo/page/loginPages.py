@@ -33,7 +33,7 @@ class LoginPage():
     def click_login (self):
         self.driver.find_element_by_xpath(self.login_button_xpath).click()
 
-    #"Specified user does not exist"--> error text should be returned
+    # "Specified user does not exist"--> error text should be returned
     def check_error_message(self):
         msg = self.driver.find_element_by_xpath(self.error_message_xpath).text
         return msg
